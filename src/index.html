@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Carousel | | Scraps</title>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Carousel container -->
+<div class="carousel">
+    <!-- Carousel inner container -->
+    <div class="carousel-inner">
+      <!-- Image slides -->
+      <div class="slide active">
+        <img src="data:image/jpeg;base64,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" alt="Image 1" width="340px" height="340px">
+      </div>
+      <div class="slide">
+        <img src="https://passportandpiano.com/wp-content/uploads/2019/04/thertwguys-1200px-gentoo-penguins.jpg" alt="Image 2" />
+      </div>
+      <div class="slide">
+        <img src="https://passportandpiano.com/wp-content/uploads/swan-on-Mainau-jpg.jpg" alt="Image 3"/>
+      </div>
+      <div class="slide">
+        <img src="https://passportandpiano.com/wp-content/uploads/Wild-Albatross-compressed.jpg" alt="Image 4"/>
+      </div>
+      <div class="slide">
+        <img src="https://passportandpiano.com/wp-content/uploads/2019/04/Splendid_Fairy_Wren_1200x900-1.jpg" alt="Image 5" />
+      </div>
+      
+    </div>
+    <!-- Navigation buttons -->
+    <button class="prev">
+        <i class="fa-solid fa-angle-left" style="color: #000000;"></i>
+    </button>
+    <button class="next">
+        <i class="fa-solid fa-angle-right" style="color: #000000;"></i>
+    </button>
+    <!-- Indicators (optional) -->
+    <div class="indicators">
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <!-- Add more indicators -->
+    </div>
+  </div>
+  <script src="/src/script.js"></script>
+</body>
+</html>
